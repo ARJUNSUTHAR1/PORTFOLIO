@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+.main-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center; 
+    background-color: #000;
+}
+.myworktext{
+    position: absolute;
+    width: 80vw;
+    height: 0vh;
+    color: #fff;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+    z-index: 1;
+}
+#my{
+    position: absolute;
+    top: 0;
+    left: 36%;
+    transform:translate(0,-50%);
+
+}
+#work{
+    position: absolute;
+    bottom: 0;
+    right: 36%;
+    transform:translate(20%,50%);
+    
+}
+
+.scroll-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    height: 75vh;
+    overflow: hidden;
+   
+}
+.scroll-work{
+    width: 100%;
+    height: 0vh;
+    overflow: hidden;
+    background-color: #3a3838;
+}
+.scroll-img{
+    width: 100%;
+    margin-top: 0%;
+}
+.scroll-img img{
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+.effect{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(160, 116, 116);
+}
+.content-part{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .rotate-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    width: 200vw;
+    height: 400vh;
+    background-color: rgb(164, 47, 47);
+} 
+.column{
+    width: calc(400vw/5);
+    height: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+} 
+.column .img-div{
+    width: 100%;
+    height: calc(100%/4);
+    background-color: aqua;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.img-div img{
+    width: 100%;
+}
+ #column-1{
+ margin-top: -5%;
+}
+#column-3{
+    margin-top: -5%;
+}
+#column-5{
+    margin-top: -5%;
+}
